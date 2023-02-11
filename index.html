@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>La Rose D'or</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header -->
+
+    <header class="header">
+      <a href="#" class="logo">
+        <i class="fas fa-bread-slice"></i> La Rose D'Or
+      </a>
+
+      <nav class="navbar">
+        <a href="#home">Accueil</a>
+        <a href="#about">À propos</a>
+        <a href="#gallery">Galerie</a>
+        <a href="#team">Équipe</a>
+        <a href="#review">Avis</a>
+      </nav>
+
+      <div class="icons">
+        <div id="cart-btn" class="fas fa-shopping-cart"></div>
+        <div id="menu-btn" class="fas fa-bars"></div>
+      </div>
+    </header>
+
+    <!-- header end -->
+
+    <!-- shopping cart -->
+
+    <div class="cart-items-container">
+      <div id="close-form" class="fas fa-times"></div>
+      <h3 class="title">checkout</h3>
+
+      <div class="cart-item">
+        <span class="fas fa-times"></span>
+        <img src="images/cart-1.jpg" alt="" />
+        <div class="content">
+          <h3>bakery item 1</h3>
+          <div class="price">$45.99/-</div>
+        </div>
+      </div>
+
+      <div class="cart-item">
+        <span class="fas fa-times"></span>
+        <img src="images/cart-2.jpg" alt="" />
+        <div class="content">
+          <h3>bakery item 2</h3>
+          <div class="price">$15.99/-</div>
+        </div>
+      </div>
+
+      <div class="cart-item">
+        <span class="fas fa-times"></span>
+        <img src="images/cart-3.jpg" alt="" />
+        <div class="content">
+          <h3>bakery item 3</h3>
+          <div class="price">$29.99/-</div>
+        </div>
+      </div>
+
+      <a href="#" class="btn"> checkout </a>
+    </div>
+
+    <!-- shopping cart end-->
+
+    <!-- home -->
+
+    <section class="home" id="home">
+      <div class="swiper home-slider">
+        <div class="swiper-wrapper">
+          <div
+            class="swiper-slide slide"
+            style="background: url(images/slider1.jpg) no-repeat"
+          >
+            <div class="content">
+              <h3>Nous apportons du bonheur à chaque bouchée</h3>
+            </div>
+          </div>
+
+          <div
+            class="swiper-slide slide"
+            style="background: url(images/slider2.jpg) no-repeat"
+          >
+            <div class="content">
+              <h3>
+                Nous transformons chaque moment en occasion de dégustation
+              </h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- banner -->
+
+    <section class="banner">
+      <img src="images/banner.png" alt="" />
+    </section>
+
+    <!-- banner end-->
+
+    <!-- about us -->
+
+    <section class="about" id="about">
+      <h1 class="heading"><span>À propos</span> de nous</h1>
+
+      <div class="row">
+        <div class="image">
+          <img src="images/about.png" alt="" />
+        </div>
+
+        <div class="content">
+          <h3>
+            Les bonnes choses arrivent <span> à ceux qui cuisinent </span> pour
+            les autres
+          </h3>
+          <p>
+            Notre boulangerie située à Villeurbanne, au cœur d'un quartier très
+            animé, est un endroit où la passion pour la boulangerie se combine à
+            un amour pour la communauté.
+          </p>
+          <p>
+            Depuis notre ouverture, nous avons été fiers de fournir à nos
+            clients des pâtisseries fraîches et délicieuses, cuisinées avec soin
+            et à partir de ingrédients de qualité.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- about us end-->
+
+    <!-- product -->
+
+    <!-- <section class="product" id="product">
+
+        <h1 class="heading">our <span> products</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/product-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>apple pie</h3>
+                    <span class="price">$15.99</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/" alt="">
+                </div>
+                <div class="content">
+                    <h3>apple pie</h3>
+                    <span class="price">$18.99</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/product-3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>apple pie</h3>
+                    <span class="price">$11.99</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/product-4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>apple pie</h3>
+                    <span class="price">$15.99</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/product-5.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>apple pie</h3>
+                    <span class="price">$27.99</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/product-6.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>apple pie</h3>
+                    <span class="price">$25.99</span>
+                </div>
+            </div>
+
+        </div>
+
+    </section> -->
+
+    <!-- product end-->
+
+    <!-- gallery -->
+
+    <section class="gallery" id="gallery">
+      <h1 class="heading">our <span> gallery</span></h1>
+
+      <div class="gallery-container">
+        <a href="images/photo1.jpg" class="box">
+          <img src="images/photo1.jpg" alt="" />
+          <div class="icons"><i class="fas fa-plus"></i></div>
+        </a>
+
+        <a href="images/photo2.jpeg" class="box">
+          <img src="images/photo2.jpeg" alt="" />
+          <div class="icons"><i class="fas fa-plus"></i></div>
+        </a>
+
+        <a href="images/photo3.jpg" class="box">
+          <img src="images/photo3.jpg" alt="" />
+          <div class="icons"><i class="fas fa-plus"></i></div>
+        </a>
+
+        <a href="images/photo4.jpeg" class="box">
+          <img src="images/photo4.jpeg" alt="" />
+          <div class="icons"><i class="fas fa-plus"></i></div>
+        </a>
+
+        <a href="images/photo5.jpeg" class="box">
+          <img src="images/photo5.jpeg" alt="" />
+          <div class="icons"><i class="fas fa-plus"></i></div>
+        </a>
+
+        <a href="images/photo6.jpeg" class="box">
+          <img src="images/photo6.jpeg" alt="" />
+          <div class="icons"><i class="fas fa-plus"></i></div>
+        </a>
+      </div>
+    </section>
+
+    <!-- gallery end -->
+
+    <!-- weekly promotions -->
+
+    <section class="promotion">
+      <h1 class="heading">PROMOTIONS <span> HEBDOMADAIRES </span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="content">
+            <h3>Gâteau au Chocolat</h3>
+            <p>
+              Notre gâteau au chocolat est un véritable délice pour les amateurs
+              de chocolat. Avec sa texture fondante et son goût intense, c'est
+              un dessert qui ne décevra pas. Nous utilisons du chocolat de
+              qualité et des ingrédients frais pour garantir un goût
+              exceptionnel. Venez déguster notre gâteau au chocolat pour un
+              moment de pure gourmandise.
+            </p>
+          </div>
+
+          <img src="images/promotion1.png" alt="" />
+        </div>
+
+        <div class="box">
+          <img src="images/promotion2.png" alt="" />
+          <div class="content">
+            <h3>Gâteau aux Noix</h3>
+            <p>
+              Notre gâteau aux noix est un délicieux dessert à base de noix
+              fraîches. Avec sa texture moelleuse et son goût délicieux, c'est
+              un véritable régal pour les amateurs de noix. Idéal pour les
+              petits déjeuners, les pauses-café ou les occasions spéciales,
+              notre gâteau aux noix est un plaisir pour les papilles. Venez
+              déguster notre gâteau aux noix pour un moment de gourmandise.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- weekly promotions ends -->
+
+    <!-- team -->
+
+    <section class="team" id="team">
+      <h1 class="heading">notre <span>équipe</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img src="images/team-1.png" alt="" />
+          </div>
+          <div class="content">
+            <h3>erica lacy</h3>
+            <p>Chef</p>
+            <div class="share">
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-instagram"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/team-2.png" alt="" />
+          </div>
+          <div class="content">
+            <h3>doe lacy</h3>
+            <p>manager</p>
+            <div class="share">
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-instagram"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/team-3.png" alt="" />
+          </div>
+          <div class="content">
+            <h3>john lacy</h3>
+            <p>manager</p>
+            <div class="share">
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-instagram"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- team -->
+
+    <!-- parallax -->
+
+    <section class="parallax">
+      <h1 class="heading">GAMME <span>DE PRODUITS</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img src="images/parallax-1.png" alt="" />
+          </div>
+          <div class="content">
+            <h3>Pain</h3>
+            <p>
+              Nous sommes fiers de proposer une large gamme de pains frais tous
+              les jours. Nous utilisons des ingrédients de qualité supérieure et
+              une méthode de pétrissage traditionnelle pour garantir un pain
+              moelleux et savoureux. Que ce soit pour le petit déjeuner, le
+              déjeuner ou le dîner, notre pain est un accompagnement parfait
+              pour toutes vos recettes.
+            </p>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/parallax-2.png" alt="" />
+          </div>
+          <div class="content">
+            <h3>Gâteaux</h3>
+            <p>
+              Nos gâteaux sont le résultat de la combinaison parfaite
+              d'ingrédients frais et de notre passion pour la pâtisserie. Chaque
+              gâteau est cuisiné avec soin pour garantir une texture fondante et
+              un goût délicieux. Que vous recherchiez un gâteau pour une
+              occasion spéciale ou simplement pour une pause-café, notre gamme
+              de gâteaux vous offrira une expérience de gourmandise inoubliable.
+            </p>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/parallax-3.png" alt="" />
+          </div>
+          <div class="content">
+            <h3>Viennoiseries</h3>
+            <p>
+              Nos viennoiseries sont un mélange parfait de tradition française
+              et de passion pour la pâtisserie. Nous utilisons des ingrédients
+              frais pour créer une variété délicieuse de croissants, pains au
+              chocolat et autres viennoiseries. Chaque bouchée vous offrira une
+              expérience de gourmandise unique.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- parallax -->
+
+    <!-- review -->
+
+    <section class="review" id="review">
+      <h1 class="heading">Avis des <span>clients </span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="images/review-1.png" class="user" alt="" />
+          <h3>Julien D.</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <p>
+            Je suis un grand fan de leurs produits. Les croissants sont toujours
+            cuits à la perfection et leurs pains sont si moelleux et délicieux.
+            Je recommande fortement cette boulangerie pour tous les amateurs de
+            boulangerie.
+          </p>
+        </div>
+
+        <div class="box">
+          <img src="images/review-2.png" class="user" alt="" />
+          <h3>Manon S.</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <p>
+            J'ai été agréablement surprise par la qualité des gâteaux et des
+            viennoiseries de cette boulangerie. Les ingrédients sont frais et le
+            personnel est très accueillant.
+          </p>
+        </div>
+
+        <div class="box">
+          <img src="images/review-3.png" class="user" alt="" />
+          <h3>Amine M.</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <p>
+            J'ai essayé leur pain frais et c'était absolument délicieux! La
+            texture et le goût étaient parfaits et je le recommande vivement.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- review -->
+
+    <!-- order -->
+
+    <!-- order end -->
+
+    <!-- footer -->
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>addresse</h3>
+          <p>115 Av. Roger Salengro, 69100 Villeurbanne</p>
+          <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+          </div>
+        </div>
+
+        <div class="box">
+          <h3>E-mail</h3>
+          <a href="#" class="link">larosedor@gmail.com</a>
+        </div>
+
+        <div class="box">
+          <h3>Appelez-nous</h3>
+          <p>04 78 93 42 97</p>
+        </div>
+
+        <div class="box">
+          <h3>heures d'ouverture</h3>
+          <p>
+            Lundi - Vendredi: 9:00 - 23:00 <br />
+            Samedi: 8:00 - 24:00
+          </p>
+        </div>
+      </div>
+
+      <div class="credit">
+        Créé par <span> FreeksCode </span> Tous droits réservés!
+      </div>
+    </section>
+
+    <!-- footer ends -->
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+    <script src="./script.js"></script>
+
+    <script>
+      lightGallery(document.querySelector(".gallery .gallery-container"));
+    </script>
+  </body>
+</html>
